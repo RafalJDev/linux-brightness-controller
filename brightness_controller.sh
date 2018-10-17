@@ -37,10 +37,10 @@ fi
 echo $brightness_output;
 
 
- # gamma_current=$(xrandr --verbose | grep Gamma | grep -o '[0-9][0-9:.]*' | sed -n $sed_line)
- gamma_current="1.0:1.0:1.0"
+# gamma_current=$(xrandr --verbose | grep Gamma | grep -o '[0-9][0-9:.]*' | sed -n $sed_line)
+# gamma_current="1.0:1.0:1.0"
 
- echo "gamma: " $gamma_current
+# echo "gamma: " $gamma_current
 
 display_name=DP-$display_number
-xrandr --output $display_name --brightness $brightness_output;
+xrandr --output $display_name --brightness $brightness_output --gamma 1.0:1.0:0.8;
