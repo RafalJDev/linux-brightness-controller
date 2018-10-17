@@ -1,8 +1,6 @@
 display_number=$1; #1/2
 brightness_direction=$2; #up/down
 
-# display_number=1
-# brightness_direction=d
 
 if [ $brightness_direction = "u" ]; then
 	brightness_direction="up"
