@@ -14,3 +14,8 @@ u can assign it to shorcut in settings:
     - 1st monitor birghtness up/down ctrl+shift 7/1 (numpad)
     - 2nd monitor birghtness up/down ctrl+shift 9/3 (numpad)
 
+
+# TODO 
+ * gamma in xrandr (leave unchanged)
+ * change brightness depending on program (probably new script) eg. 1.0 brightness for Intellij IDEA, 0.5 brightness for Chrome
+   so works when changing program with # alt+tab
