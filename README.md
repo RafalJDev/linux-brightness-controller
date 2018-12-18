@@ -8,7 +8,7 @@ Features:
 
 Example usage: 
 
-    `bash brightness_controller 1 u`
+    bash brightness_controller 1 u
 
   * 1st parameter - number of monitor to change brightness on (e.g. my monitor names are DP-1, DP-2)
   * 2nd parameter:
