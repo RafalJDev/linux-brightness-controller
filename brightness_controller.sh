@@ -1,4 +1,6 @@
 #!/bin/bash
+
+#this are parameters !
 displayNumber=$1; #1/2
 brightnessDirection=$2; #up/down
 yellowLevel=$3; #0.0 to 1.0
