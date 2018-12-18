@@ -16,6 +16,6 @@ u can assign it to **shorcut** in settings:
 
 
 # TODO 
- * <s>gamma in **xrandr** (leave unchanged)<s> DONE
+ * <s>gamma in **xrandr** (leave unchanged)</s> DONE
  * change brightness depending on program (probably new script) eg. 1.0 brightness for **Intellij IDEA**, 0.5 brightness for **Chrome**
    so works when changing program with **alt+tab**
